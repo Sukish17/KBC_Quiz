@@ -1,0 +1,214 @@
+.ppp {
+    height: 100vh;
+    color: white;
+    background-image: url('https://images.news18.com/webstories/2023/09/kbc23_int_14aug_landscape_thumb.jpg');
+    width: 100vw;
+    background-size: cover;
+    display: flex;
+    margin: 0px;
+
+  }
+  
+  .suman{
+    display: flex;
+    height: 100vh;
+    margin: 0px;
+  }
+  
+  .raju {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background: url("https://img.freepik.com/premium-photo/black-luxury-product-podium-with-purple-neon-lamps-realistic-3d-vector-cylinder-showcase-platform-w_1041545-43359.jpg");
+    height: 100%;
+    background-size: cover;
+    margin: 0px;
+  }
+  
+  .quiz {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 0px;
+  }
+  
+  .question {
+    width: 80%;
+    background: linear-gradient(#100241, black);
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    border: 2px solid white;
+    font-size: 20px;
+
+  }
+  
+  
+  
+  .answers {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .answer {
+    width: 40%;
+    padding: 10px;
+    margin: 0 10px 20px 10px;
+    text-align: center;
+    background: linear-gradient(#0e0124, #22074d);
+    border: 1px solid white;
+    border-radius: 65px;
+    font-weight: 300;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  
+  .answer:hover,
+  .answer.active {
+    background: mediumblue;
+  }
+  
+  .answer.correct {
+    animation: correct 3s ease forwards;
+  }
+  
+  @keyframes correct {
+    0%,
+    22%,
+    42% {
+      background: mediumblue;
+    }
+    20%,
+    40%,
+    60% {
+      background: linear-gradient(#0e0124, #22074d);
+    }
+    62%,
+    100% {
+      background: #33d40f;
+    }
+  }
+  
+  .answer.wrong {
+    animation: wrong 3s ease forwards;
+  }
+  
+  @keyframes wrong {
+    0%,
+    22%,
+    42% {
+      background: mediumblue;
+    }
+    20%,
+    40%,
+    60% {
+      background: linear-gradient(#0e0124, #22074d);
+    }
+    62%,
+    100% {
+      background: red;
+    }
+  }
+  
+  .item {
+    display: inline-block;
+    align-items: center;
+    padding: 5px;
+    border-radius: 40px;
+    width: auto;
+  }
+  
+  .item.active {
+    background-color: rgb(0, 128, 49);
+  }
+  
+  .money {
+    background:linear-gradient(to right,#680572,#e928c2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30%;
+  }
+  
+  .money-list {
+    padding: 20px;
+    list-style: none;
+    width: 100%;
+  }
+  
+  .amount {
+    font-size: 18px;
+    font-weight: 300;
+    text-align: center;
+  }
+  .qu{
+    order: 2;
+  }
+  .timer {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 5px solid rgb(5, 44, 70);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: 10px;
+    left: 80px;
+    font-size: 30px;
+    font-weight: 700;
+    order: 1;
+    color: #fdfdfd;
+  }
+  
+  .earned {
+    position: relative;
+    margin: auto;
+    margin-top: 150px;
+    color: #fff;
+    font-weight: 600;
+  }
+  .form-control{
+    height: 40px;
+    width: 140px;
+    border-radius: 4px;
+    border: 3px solid #eab918;
+    margin-bottom: 25px;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Courier New',;
+    
+  }
+  .sbtn{
+    height: 30px;
+    width: 90px;
+    border: 0px;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: #308019;
+    color: white;
+  }
+  .sbtn1{
+    height: 30px;
+    width: 90px;
+    border: 0px;
+    border-radius: 4px;
+    margin-right: 5px;
+    background-color: #308019;
+    cursor: pointer;
+
+  }
+  .sbtn2{
+    height: 30px;
+    width: 90px;
+    border: 0px;
+    border-radius: 4px;
+    margin-right: 5px;
+    background-color: #f10639 ;
+    cursor: pointer;
+
+  }

@@ -1,0 +1,15 @@
+body{
+    background-image:url('https://images.news18.com/webstories/2023/09/kbc23_int_14aug_landscape_thumb.jpg');
+ padding: 0px;
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+    overflow: hidden;
+    margin: 0px;
+}
+p{
+    font-size: large;
+}
+h1{
+    color: wheat;
+}
